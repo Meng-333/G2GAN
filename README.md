@@ -8,8 +8,6 @@
 
   - This is our first submission. We will gradually update the dataset and code.
 
-    
-
 ![](results_img/Fig1.png)
 
 Fig. 1. Overview of the proposed G2GAN. (a) Generator Network. (b) Discriminator Network.
@@ -73,11 +71,11 @@ We used four datasets to train our model. After secondary processing, we obtaine
 - Test
   
   - ["AVMS", "FLIR", "DroneVehicle", "M3IR-1k"]
-- Link: Our initial M3IR-1k dataset (1,273 paired visible-infrared images, each 1280x1024 pixels) , and the cropped dataset used for training and testing (16200 infrared images, each 512x512 pixels).
+- Link: Our initial M3IR-1k dataset (1,273 paired visible-infrared images, each 1280x1024 pixels) [[Baidu Cloud Disk (code: xxxx)](https://pan.baidu.com/s/1VkxQDSk10JWqMvnS_g5DDA)], and the cropped dataset used for training and testing (16200 infrared images, each 512x512 pixels) [[Baidu Cloud Disk (code: xxxx)](https://pan.baidu.com/s/1c1ZOfQ88m9dz85YiPuXHjw)].
 
 ## Train & Evaluate
 1. Prepare environment, datasets and code.
-2. Run training / evaluation code. The code is for training on 1 GPU.
+2. Run the training/evaluation code. This code is designed for training on a single GPU.
 
 ```bash
 # g2gan
@@ -116,10 +114,9 @@ Fig. 7. Qualitative comparison of x8 SR reconstruction results from different me
 
 Fig. 8. Detection performance comparison of our G2GAN with other methods on the sample images.
 
-## Citation
+## Contact
 
-If you find our dataset and code useful for your research or work, please consider citing our paper.
+If you have any questions about it, please feel free to let me know. (email:[mengfanen@tmslab.cn; 12238036@zju.edu.cn]
 
-```bib
-F. Meng et al., "G2GAN: A Gradient-Guided Progressive Generative Adversarial Network Method for Infrared Image Super-Resolution," in xxx.
-```
+
+
