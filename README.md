@@ -72,7 +72,7 @@ We used four datasets to train our model. After secondary processing, we obtaine
 - Test
   
   - ["AVMS", "FLIR", "DroneVehicle", "M3IR-1k"]
-- Link: Our initial M3IR-1k dataset (1,273 paired visible-infrared images, each 1280x1024 pixels) [[Baidu Cloud Disk (code: xxxx)](https://pan.baidu.com/s/1VkxQDSk10JWqMvnS_g5DDA)], and the cropped dataset used for training and testing (16200 infrared images, each 512x512 pixels) [[Baidu Cloud Disk (code: xxxx)](https://pan.baidu.com/s/1c1ZOfQ88m9dz85YiPuXHjw)].
+- Link: Our initial M3IR-1k dataset (1,273 paired visible-infrared images, each 1280x1024 pixels) [[Baidu Cloud Disk (code: xxxx)](https://pan.baidu.com/s/1VkxQDSk10JWqMvnS_g5DDA)], and the cropped dataset used for training and testing (16200 infrared images, each 512x512 pixels) [[Baidu Cloud Disk (code: mmmf)](https://pan.baidu.com/s/1c1ZOfQ88m9dz85YiPuXHjw)].
 
 ## Train & Evaluate
 1. Prepare environment, datasets and code.
