@@ -35,6 +35,7 @@ Our folder structure is as follows:
 │   │   ├── dasrgan.py   (dasrgan model)
 │   │   ├── infraffn.py  (infraffn model)
 │   │   ├── irsrmamba.py (irsrmamba model)
+│   │   ├── pifrnet.py (pifrnet model)
 │   │   ├── g2gan.py     (Ours model)
 │   ├── utils
 │   ├── main_dssr.py
@@ -44,6 +45,7 @@ Our folder structure is as follows:
 │   ├── main_dasrgan.py
 │   ├── main_infraffn.py
 │   ├── main_irsrmamba.py
+│   ├── main_pifrnet.py
 │   ├── main_g2gan.py
 ```
 
@@ -51,7 +53,7 @@ Our folder structure is as follows:
 
 - G2GAN (gradient guided progressive generative adversarial network)
 
-  - Contains eight super-resolution models: ['DSSR', 'SwinIR', 'SRAGAN', 'SRDSRAN', 'DASRGAN', 'InfraFFN', 'IRSRMamba', '**G2GAN**']
+  - Contains eight super-resolution models: ['DSSR', 'SwinIR', 'SRAGAN', 'SRDSRAN', 'DASRGAN', 'InfraFFN', 'IRSRMamba', 'PIFRNet', '**G2GAN**']
 
 
 ## Environment Installation
@@ -93,6 +95,7 @@ python main_srdaran.py            # Train and test of all comparison methods
 python main_dasrgan.py
 python main_infraffn.py
 python main_irsrmamba.py
+python main_pifrnet.py
 ```
 
 ## Results
