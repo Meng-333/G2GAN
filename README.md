@@ -4,9 +4,9 @@
 
   - Fanen Meng, Yongfei Xian, Yi Xiao, Laifu Zhang, Zhiguo Jiang, Fengying Xie, Sensen Wu, Zhenhong Du, Haopeng Zhang
 
-  - Submitted to journal, currently under review
-
-  - This is our first submission. We will gradually update the dataset and code.
+  - IEEE Transactions on Geoscience and Remote Sensing, vol. 64, pp. 1-14
+  - https://ieeexplore.ieee.org/document/11774878
+  - DOI：10.1109/TGRS.2026.3750339.
     
 
 ![](results_img/Fig1.png)
@@ -99,21 +99,31 @@ python main_irsrmamba.py
 
 ### 1. Comparison on AVMS and FLIR Datasets
 
-![](results_img/Fig6.png)
+![](results_img/Fig7.png)
 
-Fig. 6. Qualitative comparison of x8 SR reconstruction results from different methods. (a) AVMS dataset. (b) FLIR dataset. Bold denotes the best metric result.
+Fig. 7. Qualitative comparison of x8 SR reconstruction results from different methods. (a) AVMS dataset. (b) FLIR dataset. Bold denotes the best metric result.
 
 ### 2. Comparison on DroneVehicle and M3IR-1k Datasets
 
-![](results_img/Fig7.png)
+![](results_img/Fig8.png)
 
-Fig. 7. Qualitative comparison of x8 SR reconstruction results from different methods. (a) DroneVehicle dataset. (b) M3IR dataset. Bold denotes the best metric result.
+Fig. 8. Qualitative comparison of x8 SR reconstruction results from different methods. (a) DroneVehicle dataset. (b) M3IR dataset. Bold denotes the best metric result.
 
 ### 3. Object Detection Evaluation of SR Results
 
-![](results_img/Fig8.png)
+![](results_img/Fig9.png)
 
-Fig. 8. Detection performance comparison of our G2GAN with other methods on the sample images.
+Fig. 9. Detection performance comparison of our G2GAN with other methods on the sample images.
+
+## Citation
+
+If our code helps with your research or work, please consider citing our paper. 
+
+```
+F. Meng et al., "G2GAN: A Gradient-Guided Progressive Generative Adversarial Network Method for Infrared Image Super-Resolution,"
+in IEEE Transactions on Geoscience and Remote Sensing, vol. 64, pp. 1-14, 2026, Art no. 5400822,
+doi: 10.1109/TGRS.2026.3750339.
+```
 
 ## Contact
 
